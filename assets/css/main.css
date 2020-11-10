@@ -1593,13 +1593,17 @@ input, select, textarea {
 		-ms-transition: background-color .25s ease-in-out;
 		transition: background-color .25s ease-in-out;
 		-webkit-appearance: none;
+		text-align: center;
 		display: inline-block;
 		background-color: #222222;
 		color: #ffffff;
 		border: 0;
+		border-radius: 8px;
+		width: 120px;
+		text-decoration: none;
 		cursor: pointer;
 		outline: 0;
-		padding: 0.7em 1.5em 0.7em 1.5em;
+		padding: auto;
 	}
 
 		input[type="button"]:hover,
@@ -1648,6 +1652,7 @@ input, select, textarea {
 		button.small,
 		.button.small {
 			font-size: 0.75em;
+			padding: auto;
 		}
 
 		input[type="button"].large,
@@ -1656,7 +1661,7 @@ input, select, textarea {
 		button.large,
 		.button.large {
 			font-size: 1.25em;
-			padding: 0.5em 1.25em 0.5em 1.25em;
+			padding: auto;
 		}
 
 		input[type="button"].xlarge,
@@ -1665,7 +1670,7 @@ input, select, textarea {
 		button.xlarge,
 		.button.xlarge {
 			font-size: 1.5em;
-			padding: 0.5em 1.25em 0.5em 1.25em;
+			padding: auto;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1675,7 +1680,8 @@ input, select, textarea {
 			input[type="reset"],
 			button,
 			.button {
-				width: 100%;
+				width: 120px;
+				padding: auto;
 			}
 
 		}
